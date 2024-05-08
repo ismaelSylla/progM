@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SonActivity">
+
+    <View
+        android:id="@+id/blueBand"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:background="#673AB7"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="47dp"
+        android:fontFamily="sans-serif-black"
+        android:text="QUIZ MUSIQUE"
+        android:textColor="#F3F3F4"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/diskSon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/diskSon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="374dp"
+        android:clickable="true"
+        android:onClick="playSon"
+        android:src="@drawable/disk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuiz"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+    <Button
+        android:id="@+id/answerS1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="61dp"
+        android:backgroundTint="#673AB7"
+        android:fontFamily="sans-serif-black"
+        android:onClick="onOne"
+        android:text="TextView1"
+        android:textColor="#FBFAFA"
+        app:layout_constraintBottom_toTopOf="@+id/answerS2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diskSon" />
+
+    <Button
+        android:id="@+id/answerS2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="59dp"
+        android:backgroundTint="#673AB7"
+        android:fontFamily="sans-serif-black"
+        android:onClick="onTwo"
+        android:text="TextView1"
+        android:textColor="#FBFAFA"
+        app:layout_constraintBottom_toTopOf="@+id/answerS3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answerS1" />
+
+    <Button
+        android:id="@+id/answerS3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:backgroundTint="#673AB7"
+        android:fontFamily="sans-serif-black"
+        android:onClick="onThree"
+        android:text="TextView1"
+        android:textColor="#FBFAFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answerS2" />
+
+    <TextView
+        android:id="@+id/temps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="550dp"
+        android:fontFamily="sans-serif-black"
+        android:text="15s"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--
+
+
+        -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

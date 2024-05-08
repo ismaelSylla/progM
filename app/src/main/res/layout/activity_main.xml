@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fond_jeu"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/todo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text= "@string/choisissez_votre_defi"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:rowOrderPreserved="false">
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="🏹 L'ARCHER 🏹"
+                android:layout_margin="4dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#19736B"
+                android:id="@+id/bouton1"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="💀 SURVIE 💀"
+                android:layout_margin="4dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#19736B"
+                android:id="@+id/bouton2"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="🏐 Ball 🏐"
+                android:layout_margin="4dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#19736B"
+                android:id="@+id/bouton3"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="SHAKING"
+                android:layout_margin="4dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#19736B"
+                android:id="@+id/bouton4"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="@string/bouton_5"
+                android:layout_margin="4dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#19736B"
+                android:id="@+id/bouton5"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="🎧MusicQUIZ🎸"
+                android:layout_margin="4dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#19736B"
+                android:id="@+id/bouton6"/>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

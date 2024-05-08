@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="mon_bouton">mon bouton</string>
+    <string name="cc_tout_le_monde">cc tout le monde</string>
+    <string name="Bonjour_et_bienvenue_sur_notre_application" />
+    <string name="bouton_2">Bouton 2</string>
+    <string name="bouton_3">Bouton 3</string>
+    <string name="bouton_4">Bouton 4</string>
+    <string name="bouton_5">🤔 QUIZ 🧐</string>
+    <string name="bouton_6">Bouton 6</string>
+    <string name="choisissez_votre_defi">Choisissez un JEU🔥</string>
+    <string name="bouton_1">Bouton 1</string>
+    <string name="tir_la_fleche">TIR à LA FLECHE</string>
+    <string name="todo">TODO</string>
+    <string name="jouer_mode_solo">Jouer Mode Solo</string>
+    <string name="jouer_en_mode_solo">JOUER EN MODE SOLO</string>
+    <string name="jouer_avec_un_ami">JOUER AVEC UN AMI</string>
+    <string name="parametre">PARAMETRE</string>
+    <string name="quitter_le_jeu">QUITTER LE JEU</string>
+    <string name="tir_a_la_fleche">TIR A LA FLECHE</string>
+    <string name="temps_restant">Temps restant</string>
+    <string name="score">Score :</string>
+    <string name="lancer">Lancer</string>
+    <string name="l_archer">L\' ARCHER</string>
+    <string name="survie">SURVIE</string>
+    <string name="fin_de_la_partie">Dans ce jeu votre objectifs est d\'atteindre les bordures de votre telephone haut et bas</string>
+</resources>
